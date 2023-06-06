@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+<title>WE SAVE ANIMALS</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><image src="images/logo2.png" width=100, height=100 alt=""></image></a>
+            <div class="nav-links" id="navLinks">
+                <i class="lni lni-close"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                    <li><a href="donate.html">DONATE</a></li>
+                </ul>
+            </div>
+            <i class="lni lni-menu"></i>
+            </nav>
+    
+        <h1>Contact Us</h1>
+
+    </section>
+    <!----content----->
+    <section class="location">
+       <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7781.598375976611!2d77.491783!3d12.791543!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae41bc0304b55b%3A0x767846db379dcc5a!2sWe%20Save%20Animals!5e0!3m2!1sen!2sin!4v1685791487163!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </iframe>
+
+    
+            <section class="contactus"></section>
+            <div class="row">
+                <div class="contactus-col">
+                    <div>
+                        
+                        <span>
+                            <h5>Address</h5>
+                            <p>Sy.No. 18/2, K. Chudahalli, Somanahalli Post, <br>Near Guhantara Resort & KMS Farm,<br>
+                            Uttarahalli Hobli,Kanakapura Main Road, <br>Bangalore - 560 082<br> <br> 
+                            <i class="lni lni-phone"></i>
+                            <h5>Rescue Line</h5>
+                            +91-9632300046<br>
+                        </p>
+                        </span>
+                    </div>
+                </div>
+                 
+                </div>
+                <div class="contactus-col">
+                    <i class="lni lni-ambulance"></i>
+                    <span>
+                        <h5>Hours of Operation</h5>
+                        <p>At The Shelter, Staff Members Are In <br>The Office And Available Most Weekdays.<br>
+                            MONDAY - FRIDAY<br>
+                            10:00AM - 05:00PM</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contactus-col">
+                <i class="lni lni-envelope"></i>
+                <span>
+                    <h5>EMAIL - Wsatrustindia@Gmail.Com</h5>
+                </span>
+            </div>
+
+            <div class="contactus-col">
+             <h4>Tell Us Your Thoughts</h4>
+             <form action="form_handler.php" method="post">
+                <input type="text" name="name" placeholder="Enter your name" required>
+                <input type="email" name="email" placeholder="Enter your email address" required>
+                <input type="text" name="subject" placeholder="Enter your Subject" required>
+                <textarea rows="10" name="message" placeholder="Message"></textarea>
+                <button type="submit" class="submit-btn">Send Message</button>
+             </form>
+
+            </div>
+
+
+    </section>
+        
+    </section>
+    
+    <!----footer----->
+    <section class="footer">
+        <h2>Address</h2>
+        <p>Sy.No. 18/2, K. Chudahalli, Somanahalli Post, Near Guhantara Resort & KMS Farm, <br>Uttarahalli Hobli,Kanakapura Main Road, Bangalore - 560 082<br>
+            EMAIL - Wsatrustindia@Gmail.Com<br>
+            RESCUE LINE - +91-9632300046</p>
+
+            <div class="icons">
+                <i class="lni lni-facebook-line"></i>
+                <i class="lni lni-instagram-original"></i>
+                <i class="lni lni-twitter"></i>
+                <i class="lni lni-linkedin-original"></i>
+            </div>
+
+
+    </section>
+    <!-----javascript for toggle menu------->
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu()
+        {
+            navLinks.style.right="200px";
+        }
+    </script>
+</body>
+</html>

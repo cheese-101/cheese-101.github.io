@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+<title>WE SAVE ANIMALS</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><image src="images/logo2.png" width=100, height=100 alt=""></image></a>
+            <div class="nav-links" id="navLinks">
+                <i class="lni lni-close"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                    <li><a href="donate.html">DONATE</a></li>
+                </ul>
+            </div>
+            <i class="lni lni-menu"></i>
+            </nav>
+    
+        <h1>Make a Donation</h1>
+
+    </section>
+    <!----content----->
+    
+    <div class="donate">
+        <form action="">
+        <div class="row">
+            <div class="col">
+                <h3 class= "title">Billing Address</h3>
+               <div class="inputBox">
+                <span>Full Name: </span>
+                <input type="text" placeholder="jhon deo">
+               </div>
+
+               <div class="inputBox">
+                <span>Email: </span>
+                <input type="email" placeholder="example@example.com">
+               </div>
+
+               <div class="inputBox">
+                <span>Address: </span>
+                <input type="text" placeholder="room - street - locality">
+               </div>
+
+               <div class="inputBox">
+                <span>City: </span>
+                <input type="text" placeholder="Bengaluru">
+               </div>
+
+               <div class="flex">
+               <div class="inputBox">
+                <span>State: </span>
+                <input type="text" placeholder="Karnataka">
+               </div>
+
+               <div class="inputBox">
+                <span>Zip Code: </span>
+                <input type="text" placeholder="123456">
+               </div>
+
+            </div>
+            </div>
+
+            <div class="col">
+                <h3 class= "title">Payments</h3>
+
+                <div class="inputBox">
+                    <span>Cards accepted: </span>
+                    <img src="images/cards.png" width=150, height=30>
+                   </div>
+    
+               <div class="inputBox">
+                <span>Name on card: </span>
+                <input type="text" placeholder="Mr. jhon deo">
+               </div>
+
+               
+               <div class="inputBox">
+                <span>Credit card number: </span>
+                <input type="number" placeholder="1111-2222-3333-4444 ">
+               </div>
+
+               <div class="inputBox">
+                <span>Expiry Month: </span>
+                <input type="text" placeholder="January">
+               </div>
+
+               <div class="flex">
+               <div class="inputBox">
+                <span>Expiry year: </span>
+                <input type="number" placeholder="20XX">
+               </div>
+
+               <div class="inputBox">
+                <span>CVV: </span>
+                <input type="text" placeholder="1234">
+               </div>
+
+            </div>
+            </div>
+        </div>
+
+        <input type="submit" value="proceed to checkout" class="submit-btn">
+        </form>
+    </div>
+    
+    <!----footer----->
+    <section class="footer">
+        <h2>Address</h2>
+        <p>Sy.No. 18/2, K. Chudahalli, Somanahalli Post, Near Guhantara Resort & KMS Farm, <br>Uttarahalli Hobli,Kanakapura Main Road, Bangalore - 560 082<br>
+            EMAIL - Wsatrustindia@Gmail.Com<br>
+            RESCUE LINE - +91-9632300046</p>
+
+            <div class="icons">
+                <i class="lni lni-facebook-line"></i>
+                <i class="lni lni-instagram-original"></i>
+                <i class="lni lni-twitter"></i>
+                <i class="lni lni-linkedin-original"></i>
+            </div>
+
+
+    </section>
+    <!-----javascript for toggle menu------->
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu()
+        {
+            navLinks.style.right="200px";
+        }
+    </script>
+</body>
+</html>
