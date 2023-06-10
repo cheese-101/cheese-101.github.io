@@ -131,7 +131,7 @@ nav.fa{
     display:flex;
     justify-content: space-between;
 }
-.course-col{
+.about-col{
     flex:33.33%;
     background: #c3f993;
     border-radius: 10px;
@@ -144,7 +144,6 @@ nav.fa{
     .row{
         flex-direction:column;
     }
-}
 
 /*gallery*/
 .campus{
