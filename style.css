@@ -83,7 +83,7 @@ nav img{
     transition:2s;
 }
 nav .fa{
-    display:none;
+    display: none;
 }
 @media(max-width:700px){
     .text-box h1{
@@ -102,7 +102,7 @@ nav .fa{
     height: 100vh;
     width:200px;
     top: 0;
-    right:0;
+    right:-200px;
     text-align: left;
     z-index: 2;
     transition: 1s;
@@ -115,7 +115,7 @@ nav.fa{
     cursor: pointer;
 }
 .nav-links ul{
-    padding: 30px;
+    padding: 40px;
 }
 }
 /*-----about us--------*/
@@ -144,44 +144,45 @@ nav.fa{
     .row{
         flex-direction:column;
     }
+}
 
 /*gallery*/
-.campus{
+.gallery{
     width:90%;
     margin-left:70px;
      text-align: center;
     padding-top: 50px;
 }
 
-.campus-col{
+.gallery-col{
 flex-basis:50%;
 border-radius: 10px;
 margin-bottom: 5%;
 text-align: center;
 
 }
-.campus-col img{
+.gallery-col img{
     width:90%;
     border-radius: 10px;
 }
  
 
  /*---volunteers----*/
- .facilities{
+ .volunteers{
     width:80%;
     margin:auto;
     text-align: center;
     padding-top: 100px;
  }
 
- .facilities-col{
+ .volunteers-col{
     flex-basis:50%;
     border-radius: 10px;
     margin-bottom: 5%;
     text-align: center;
 
  }
- .facilities-col img{
+ .volunteers-col img{
     width:90%;
     border-radius: 10px;
 
@@ -287,6 +288,7 @@ width: 100%;
 .contactus{
     width:80%;
     margin: auto;
+    
 }
 
 .contactus-col{
